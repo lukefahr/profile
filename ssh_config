@@ -1,0 +1,9 @@
+Host hulk
+    User lukefahr
+    HostName hulk.cs.indiana.edu
+    Port 22
+
+Host autograder
+    User lukefahr
+    HostName autograder.sice.indiana.edu
+    Port 22
