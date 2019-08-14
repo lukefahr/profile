@@ -1,9 +1,56 @@
 Host hulk
+    UseKeychain yes
     User lukefahr
     HostName hulk.cs.indiana.edu
     Port 22
+    ForwardX11 yes
+    ForwardX11Timeout 7d
+    ForwardAgent yes
+    AddKeysToAgent yes
+    Compression yes
+
+Host tank
+    UseKeychain yes
+    User lukefahr
+    HostName tank.cs.indiana.edu
+    Port 22
+    ForwardX11 yes
+    ForwardX11Timeout 7d
+    ForwardAgent yes
+    AddKeysToAgent yes
+    Compression yes
+
+
+
+Host silo 
+    UseKeychain yes
+    User lukefahr
+    HostName silo.cs.indiana.edu
+    Port 22
+    ForwardX11 yes
+    ForwardX11Timeout 7d
+    ForwardAgent yes
+    AddKeysToAgent yes
+    Compression yes
+
 
 Host autograder
     User lukefahr
     HostName autograder.sice.indiana.edu
     Port 22
+
+Host coldwater
+    User lukefahr
+    HostName coldwater.eecs.umich.edu
+    Port 22
+    ForwardX11 yes
+    ForwardX11Timeout 7d
+    ForwardAgent yes
+    AddKeysToAgent yes
+    Compression yes
+
+Host  carbonate
+    User lukefahr
+    HostName carbonate.uits.iu.edu
+    Port 22
+
