@@ -5,6 +5,9 @@ if [ -f ~/.bashrc ]; then
 	. ~/.bashrc
 fi
 
+# Set the default editor you prefer
+EDITOR=vim
+export EDITOR
 
 # make our terminal pretty
 export TERM="xterm-color" 
@@ -20,5 +23,5 @@ PATH=$PATH:$HOME/bin
 
 # add anaconda to path
 # add local path first, to give us anaconda python
-PATH=$HOME/anaconda3/bin/:$PATH
+#PATH=$HOME/anaconda3/bin/:$PATH
 
