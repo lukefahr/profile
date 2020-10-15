@@ -35,4 +35,8 @@ if [ -d "$HOME/bin" ]; then
     PATH=$PATH:$HOME/bin
 fi
 
-
+#try to load EDA tools
+if command -v module &> /dev/null; then
+    module load mentor/calibre-2018
+    module load cadence/cadence-adv
+fi
