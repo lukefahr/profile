@@ -37,6 +37,6 @@ fi
 
 #try to load EDA tools
 if command -v module &> /dev/null; then
-    module load mentor/calibre-2018
+    module load mentor/calibre-2019
     module load cadence/cadence-adv
 fi
