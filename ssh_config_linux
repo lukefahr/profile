@@ -99,7 +99,7 @@ Host res1
 
 Host res2 
     User lukefahr
-    HostName sailin-research1.luddy.indiana.edu 
+    HostName sailin-research2.luddy.indiana.edu 
     ForwardAgent yes
     AddKeysToAgent yes
     Compression yes
