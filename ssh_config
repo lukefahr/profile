@@ -20,8 +20,6 @@ Host tank
     AddKeysToAgent yes
     Compression yes
 
-
-
 Host silo 
     UseKeychain yes
     User lukefahr
@@ -33,11 +31,30 @@ Host silo
     AddKeysToAgent yes
     Compression yes
 
+Host kj 
+    UseKeychain yes
+    User lukefahr
+    HostName kj.luddy.indiana.edu
+    Port 22
+    ForwardX11 yes
+    ForwardX11Timeout 7d
+    ForwardAgent yes
+    AddKeysToAgent yes
+    Compression yes
+
+
 
 Host autograder
     User lukefahr
     HostName autograder.sice.indiana.edu
     Port 22
+    ForwardX11 yes
+    ForwardX11Timeout 7d
+    ForwardAgent yes
+    AddKeysToAgent yes
+    Compression yes
+
+
 
 Host coldwater
     User lukefahr
@@ -53,4 +70,46 @@ Host  carbonate
     User lukefahr
     HostName carbonate.uits.iu.edu
     Port 22
+    ForwardAgent yes
+    AddKeysToAgent yes
+    Compression yes
+
+Host pynq
+    User xilinx
+    HostName 192.168.2.99
+    Port 22
+    IdentityFile ~/IU/IU_work/class/E315.s20/pynq_sd_build/id_rsa.xilinx.priv 
+
+Host bench
+    User lukefahr
+    HostName sailin-bench.luddy.indiana.edu 
+    ForwardAgent yes
+    AddKeysToAgent yes
+    Compression yes
+
+Host cad 
+    User lukefahr
+    HostName sailin-cad.luddy.indiana.edu 
+    ForwardAgent yes
+    AddKeysToAgent yes
+    Compression yes
+
+Host res1 
+    User lukefahr
+    HostName sailin-research1.luddy.indiana.edu 
+    ForwardAgent yes
+    AddKeysToAgent yes
+    Compression yes
+
+Host res2 
+    User lukefahr
+    HostName sailin-research1.luddy.indiana.edu 
+    ForwardAgent yes
+    AddKeysToAgent yes
+    Compression yes
+
+
+
+
+
 
