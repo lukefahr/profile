@@ -90,5 +90,21 @@ Host cad
     AddKeysToAgent yes
     Compression yes
 
+Host res1 
+    User lukefahr
+    HostName sailin-research1.luddy.indiana.edu 
+    ForwardAgent yes
+    AddKeysToAgent yes
+    Compression yes
+
+Host res2 
+    User lukefahr
+    HostName sailin-research1.luddy.indiana.edu 
+    ForwardAgent yes
+    AddKeysToAgent yes
+    Compression yes
+
+
+
 
 

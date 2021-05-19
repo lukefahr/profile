@@ -95,6 +95,7 @@ Host cad
     Compression yes
 
 Host res1 
+    UseKeychain yes
     User lukefahr
     HostName sailin-research1.luddy.indiana.edu 
     ForwardAgent yes
@@ -102,6 +103,7 @@ Host res1
     Compression yes
 
 Host res2 
+    UseKeychain yes
     User lukefahr
     HostName sailin-research1.luddy.indiana.edu 
     ForwardAgent yes

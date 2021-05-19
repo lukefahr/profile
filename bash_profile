@@ -35,6 +35,11 @@ if [ -d "$HOME/bin" ]; then
     PATH=$PATH:$HOME/bin
 fi
 
+#try to load modules command 
+if test -f "/etc/profile.d/modules.sh"; then
+    source /etc/profile.d/modules.sh
+fi
+
 #try to load EDA tools
 if command -v module &> /dev/null; then
     module load mentor/calibre-2019
